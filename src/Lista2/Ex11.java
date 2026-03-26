@@ -1,16 +1,18 @@
 package Lista2;
 import java.util.Scanner;
-public class Ex10 {
+public class Ex11 {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		int n=teclado.nextInt(),contador=0;
-		for(int cont=1;cont<=n;cont++) {
-			if(n%cont==0) {
-				contador++;
-			}
-		}
 		
-		if(contador==2) System.out.println("E primo");
-		else System.out.println("nao e primo");
+		for(int cont=1;cont<=n;cont++) {
+			for(int cont2=1;cont2<=cont;cont2++) {
+				if(cont%cont2==0) {
+					contador++;
+				}
+			}
+			if(contador==2) System.out.printf("%d ",cont);
+			contador=0;
+		}
 	}
 }
