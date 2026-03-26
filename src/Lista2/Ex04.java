@@ -23,7 +23,7 @@ public class Ex04 {
 				contador++;
 			}
 		}
-		if(k!=0) {
+		if(contador!=0) {
 			media = soma/contador;
 			System.out.println("soma= "+soma+" media= "+media);
 		}
