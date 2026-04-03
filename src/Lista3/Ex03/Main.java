@@ -8,12 +8,12 @@ public class Main {
 		int contador=0;
 		
 		while(contador<5) {
-			Contato novoProduto = new Contato();
+			Contato novoContato = new Contato();
 			System.out.println("Insira o nome: ");
-			novoProduto.setNome(teclado.nextLine());
+			novoContato.setNome(teclado.nextLine());
 			System.out.println("Insira o numero de telefone: ");
-			novoProduto.setTelefone(teclado.nextLine());
-			listaContato.add(novoProduto);
+			novoContato.setTelefone(teclado.nextLine());
+			listaContato.add(novoContato);
 			contador++;
 		}
 		
