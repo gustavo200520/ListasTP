@@ -1,4 +1,4 @@
-package Lista3.Ex03;
+package Lista3.ex03;
 
 public class Contato {
 	private String nome;

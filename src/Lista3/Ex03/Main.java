@@ -1,4 +1,4 @@
-package Lista3.Ex03;
+package Lista3.ex03;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class Main {
