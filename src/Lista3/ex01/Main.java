@@ -1,11 +1,10 @@
 package Lista3.ex01;
-import java.awt.List;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class Main {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
-		ArrayList<Aluno> listaAluno = new ArrayList();
+		ArrayList<Aluno> listaAluno = new ArrayList<>();
 		int quantidade, contador=0;
 		
 		System.out.println("Insira a quantidade de alunos: ");
