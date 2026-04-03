@@ -1,4 +1,4 @@
-package Ex01;
+package Lista03.ex01;
 
 public class Main {
 
